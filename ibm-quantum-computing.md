@@ -32,6 +32,30 @@ le qbit est l'unité de base et peut être dans un état compris entre 0 et 1 --
 
 we will apply to te qbit some quantum gates
 
+
+
+On envoit des signaux aux qbits pour manipuler la superpostion et l'entaglement.  le système est refroidit à 0.02°Kelvin , c'est une nécessité pour que le système agisse comme un ordinateur quantique.
+
+
+
+le but d'imb est de dévlopper du vrai hardware. celui-ci est mis à disposition depuis le cloud.
+
+L'utilisateur developpe ses algorithme et les envoie pour une "compulation" en signaux qui seront utilisés pour manipuler les qbits.
+
+U ordi quantique ne fonctionne pas seul!! il est toujours accompagné d'un ordi classique qui permet la traduction des algos en signaux, qui permet d'avoir des algos plus performants en quantique
+
+
+
+Quantum Volume = capacité de mesurer le gain en performance obtenu lorsqu'on augmente le nombre de qbits,
+
+IBM s'attend à doubler l'usage chaque année, pas le nombre de qbits. **Ce n'est pas le nombre de qbits qui détermine les performances mais l'usage qu'on en fait.**
+
+\*\*\*\*
+
+
+
+
+
 ## Applications domains and use case
 
 ## IBM Q network
