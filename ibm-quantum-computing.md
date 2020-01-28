@@ -50,13 +50,42 @@ Quantum Volume = capacité de mesurer le gain en performance obtenu lorsqu'on au
 
 IBM s'attend à doubler l'usage chaque année, pas le nombre de qbits. **Ce n'est pas le nombre de qbits qui détermine les performances mais l'usage qu'on en fait.**
 
-\*\*\*\*
+**LE quantum volum**e est définit par différents critères techniques sur lesquels ils faut jouer pour gagner en performances \(-&gt; plus compliqué que en ordi classique\)
+
+Un **aspect critique est la topologie**=interconnexions des qbits
 
 
 
+Point de vue software - comment le programmer
 
+depuis leur interface cloud, QISKIT SOFTWAARE STACK programme dIBM pour programmer, proposer es building blocks disponibles gratuitemtn
+
+* AQUA -&gt; building block, algos et applications \(chemistry, finance, ai, optimization\) ensemble de algo quantiques prêts à l'emploi.
+* AER
+* IGNIS
+* TERRA
+
+on construit un "quantum circuit" en appliquant des portes aux qbits 
+
+Actuellement de nombreuses banques travaillent sur l'informatique quantique
 
 ## Applications domains and use case
 
+un ordi quantique a pour but de répondre à certains problèmes, ex:
+
+* les problèmes pour lesquelles la **complexité est exponentielle**
+
+avec n qbits on peut obtenir 2\*\*n etats possibles
+
+
+
 ## IBM Q network
+
+le but est de construire un réseau de partenaires \(etudiants, institutions, ...\)
+
+accéléré la recherche en info quantique
+
+développer des applications commerciales
+
+
 
