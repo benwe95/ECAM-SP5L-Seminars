@@ -65,7 +65,9 @@ depuis leur interface cloud, QISKIT SOFTWAARE STACK programme dIBM pour programm
 * IGNIS
 * TERRA
 
-on construit un "quantum circuit" en appliquant des portes aux qbits 
+on construit un "quantum circuit" en appliquant des portes aux qbits.
+
+La programmation se fait principalement via les portes qui peuvent également être utilisé via python
 
 Actuellement de nombreuses banques travaillent sur l'informatique quantique
 
@@ -81,11 +83,15 @@ avec n qbits on peut obtenir 2\*\*n etats possibles
 
 ## IBM Q network
 
-le but est de construire un réseau de partenaires \(etudiants, institutions, ...\)
+le but est de construire un réseau de partenaires \(etudiants, institutions, startups...\) qui collaborent pour faire évoluer la technologie qui est encore loin d'être mature.
 
 accéléré la recherche en info quantique
 
 développer des applications commerciales
+
+
+
+quantfi -&gt; startup francaise finance
 
 
 
