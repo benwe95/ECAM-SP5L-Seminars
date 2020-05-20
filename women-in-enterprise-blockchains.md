@@ -42,7 +42,7 @@ BC is about a functional tool in digital transformation. To help other technolog
 
 ## Part 1 - Identity
 
-_Dr. Amber Ghaddar_, AllianceBlock
+### _Dr. Amber Ghaddar_, AllianceBlock
 
 ex: COVID-19 Zero trust when bying mask, ... -&gt; you don't know who you're speaking to and even if they exist
 
@@ -59,9 +59,49 @@ Two type:
 
 
 
+### _Genevieve LEveille_, Agriledger
+
+Track the process of selling mango from farmer to the consumer.
+
+### _Laura De Giovanni_, Tiiqu
+
+Creating a new way to make fair decision making. Bulding trust = journey -&gt; proove to be who you are.
+
+Identity can  be stolen. 
+
+Self-Sovereign Identity.
+
+Every data owner should be able to have access to his data and control it.
+
 ## Part 2 - Trade
 
+### _Mary Hall_, Oracle
+
+The technology works now it's not just a buzz word.
+
+Fraude, control, transparency,..
+
+There is a need for enterprise to adopt the technology if they don't want to loose some advantage.
+
+Key BC differenciators
+
+
+
+### _Emmanuelle Ganne_
+
+_T_he crisis has shown the benefits of decentralization.
+
+Tracking is vital.
+
+### _Sheila Donohue_, Vero
+
+
+
 ## Part 3 - Sustainability
+
+### Krystal Webber, IBM
+
+
 
 
 
