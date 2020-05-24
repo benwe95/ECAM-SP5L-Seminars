@@ -53,6 +53,8 @@ Capacitor2.0 comes with major new features compared to Capacitor and it's now th
 
 This demo shows how easy it is to migrate Cordova plugins to make them compatible with Capacitor2.0.
 
+To do that the speaker shows us a test application and then brings a functionality which uses the camera of the device to convert the code from Cordova to Capacitor2.0
+
 ## Demo: creating a capacitor plugin for mapbox
 
 ## Demo: ionic auth connect with azure B2C
