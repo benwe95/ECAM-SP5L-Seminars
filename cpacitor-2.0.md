@@ -46,7 +46,8 @@ Capacitor2.0 comes with major new features compared to Capacitor and it's now th
 
 * New plugins
 * Support for Swift 5, Xcode 11+, Android 10, AndroidX
-* Face unlock....
+* Face and Iris Unlock
+* ...
 
 ## Demo: Cordova migration
 
