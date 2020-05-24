@@ -36,11 +36,13 @@ Cordova provides the native layer which is required to access the funtionalities
 
 ## Introducing Capacitor 2.0
 
-### what is capacitor
+### What is capacitor
 
-Capacitor is the successor of Cordova for Ionic. It reimagins Cordova an gives a modern approach of how the web and native should work together.
+Capacitor is the successor of Cordova for Ionic. It reimagins Cordova an gives a modern approach of how the web and native should work together: "C_ode Once, Configure Everywhere_".
 
-A native runtime for connectiong web apps to native functionality. 
+Thus it's a native cross-platform runtime for connectiong web apps to native functionality. 
+
+Capacitor tries to stay as close as possibile to the web browser standards to facilitate the maintenance.
 
 ### Capacitor 2.0
 
