@@ -8,9 +8,11 @@ Link to the registered conference: [https://ionicframework.com/resources/webinar
 
 ## Ionic Overview
 
-**Ionic Framework**  is an open source  SDK _\(Software Development Kit\)_ for building **cross-platform** \(mobile and desktop\) applications using **web technologies**: HTML, JS, CSS. It comes with a lot of pre-built functionalities _\(sliding, swiping gestures, ...\)_ and UI Components _\(= high-level  User Interface building blocks\)_ but it can also be integrated with other UI frameworks such as Angular, React and Vue.js
+### Ionic Framework
 
-All these functionalities  and UI components are initialiy dependant of the chosen platform \(Desktop, IOs, Android, ...\) and provided by specific SDKs. Thus the purpose of Ionic is to provide some king of bridge between these native implementation and web technologies so that the developpers can use these functionalities out-of-the-box with web tehcnologies.
+Ionic Framework **** is an open source  SDK _\(Software Development Kit\)_ for building **cross-platform** \(mobile and desktop\) applications using **web technologies**: HTML, JS, CSS. It comes with a lot of pre-built functionalities _\(sliding, swiping gestures, ...\)_ and UI Components _\(= high-level  User Interface building blocks\)_ but it can also be integrated with other UI frameworks such as Angular, React and Vue.js
+
+All these functionalities  and UI components are initialiy dependant of the chosen platform \(Desktop, iOS, Android, ...\) and provided by specific SDKs. Thus the purpose of Ionic is to provide some king of bridge between these native implementation and web technologies so that the developpers can use these functionalities out-of-the-box with web tehcnologies.
 
 ### What is a Hybrid App?
 
@@ -22,40 +24,43 @@ Thus by implementing a Hybrid App the developers mostly use web technologies to 
 
 ### Cordova: native runtime
 
-Ionic initialy uses Apache Cordova which is a development framework to build applications for mobile devices using web technologies instead of a platform-specific APIs. 
+Ionic initialy uses Apache Cordova which is a development framework to build applications **for mobile devices** \(iOS, Android, Windows Phone\) using web technologies instead of a platform-specific APIs. 
 
-Cordova provides the native layer which is required to access the funtionalities of the device, a runtime tools: "write once, run everywhere". The code has to be written only once \(with web technologies\) and it can be executed on many systems, mobile and desktop.
+Cordova provides the **native layer** which is required to access the functionalities of the device, it's a runtime tool: "_Write Once, Run Everywhere_". The code has to be written only once \(with web technologies\) and it can be executed on many systems, mobile and desktop. 
 
 ![Cordova Principle \(from &quot;Reimagining Cordova: An Introduction to Capacitor&quot;\)](.gitbook/assets/cordova.png)
-
-
-
-
-
-
 
 ## Introducing Capacitor 2.0
 
 ### What is capacitor
 
-Capacitor is the successor of Cordova for Ionic. It reimagins Cordova an gives a modern approach of how the web and native should work together: "C_ode Once, Configure Everywhere_".
+Capacitor is the successor of Cordova for Ionic. It reimagins Cordova and gives a modern approach of how the web and native should work together: "_Code Once, Configure Everywhere_". Also it has support for Desktop applications, Web and PWA _\(Progressive Web Applications\)._
 
-Thus it's a native cross-platform runtime for connectiong web apps to native functionality. 
+Thus it's a native **cross-platform** runtime for connectiong web apps to native functionality. 
 
 Capacitor tries to stay as close as possibile to the web browser standards to facilitate the maintenance.
 
 ### Capacitor 2.0
 
-## demo: cordova migration
+Capacitor2.0 comes with major new features compared to Capacitor and it's now the default for all new Ionic React & Angular projects:
 
-## demo: creating a capacitor plugin for mapbox
+* New plugins
+* Support for Swift 5, Xcode 11+, Android 10, AndroidX
+* Face unlock....
 
-## demo: ionic auth connect with azure B2C
+## Demo: Cordova migration
+
+This demo shows how easy it is to migrate Cordova plugins to make them compatible with Capacitor2.0.
+
+## Demo: creating a capacitor plugin for mapbox
+
+## Demo: ionic auth connect with azure B2C
 
 
 
 ## References: 
 
+* \[[Ionic in 30: introduction to Ionic](https://ionicframework.com/resources/webinars/ionic-in-30-introduction-to-ionic)\] 
 * \[[Capacitor 2.0: Mobile apps & PWAs from one codebase](https://ionicframework.com/resources/webinars/capacitor-2-launch%20)\]
 * \[[Reimagining Cordova: An Introduction to Capacitor](https://ionicframework.com/resources/webinars/reimagining-cordova-building-with-capacitor)\]
 
