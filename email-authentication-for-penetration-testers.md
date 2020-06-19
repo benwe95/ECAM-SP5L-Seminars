@@ -82,9 +82,21 @@ Because of these vulnerabilities, email admins tried to implement some non stand
 
 ## SPF
 
-The SPF \(Sender Policy Framework\) protocol add some addictional protection. In this case when an email arrives to Bob's incoming server it will automatically check the ip address by querying a DNS back to see if it corresponds to the outgoing server of Alice's organization.
+The SPF \(Sender Policy Framework\) protocol add some additional protection. In this case when an email arrives to Bob's incoming server it will automatically check the ip address by querying a DNS back to see if it corresponds to the outgoing server of Alice's organization. 
 
 ![](.gitbook/assets/spf.png)
+
+### Spoofing mails protected by SPF
+
+According to the configuation of the protocol it can drop the email or keep \(and maybe add some suspicion flag to it\) when the address doesn't match the expected one.  
+
+So if the protocol is wrongly used \(common case...\) then it will practically do nothing against spoofing attacks.
+
+### Checking wrong identifier
+
+There is a fatal design flaw with the SPF protocol. It only checks the sender of the envelope \(MAIL FROM\) and doens't take into account the headers of the message \(From\). As we said before these two values can be different event if it's not a common practice. 
+
+Thus an attacker could use a legitime address for the envelope \(so it will pass the SPF check\) with a different _From_ header. Because the user will only see the _From_ header it won't suspect the email coming from another person.
 
 ## DKIM
 
