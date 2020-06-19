@@ -69,11 +69,11 @@ The question is: _"which way is easier to protect?"_ \(Rep: even if we have some
 
 ### A spoofed SMTP conversation
 
-The SMTP protocol by itself doesn't have any protection against spoofing. If Chuck sends an email to Bob pretending to be Alice than the enveloppe and message of the email \(according to the protocol\) will look exactly the same as if Alice sent the email!
+The SMTP protocol by itself **doesn't have any protection against spoofing**. If Chuck sends an email to Bob pretending to be Alice than the enveloppe and message of the email \(according to the protocol\) will look exactly the same as if Alice sent the email!
 
 ### Ad-hoc protection mechanisms
 
-Because of these vulnerabilities, email admins tried to implement some non standards additional filters and protection mecahnisms for their organization. But in practice this is clearly not sufficient to be effective.
+Because of these vulnerabilities, email admins tried to implement some non standards additional filters and protection mecahnisms for their organization. But in practice this is clearly **not sufficient** to be effective.
 
 > Examples: 
 >
@@ -82,7 +82,7 @@ Because of these vulnerabilities, email admins tried to implement some non stand
 
 ## SPF
 
-The SPF \(Sender Policy Framework\) protocol add some additional protection. In this case when an email arrives to Bob's incoming server it will automatically check the ip address by querying a DNS back to see if it corresponds to the outgoing server of Alice's organization. 
+The SPF \(_Sender Policy Framework_\) protocol add some additional protection. In this case when an email arrives to Bob's incoming server it will automatically check the ip address by querying a DNS back to see if it corresponds to the outgoing server of Alice's organization. 
 
 ![](.gitbook/assets/spf.png)
 
@@ -90,19 +90,49 @@ The SPF \(Sender Policy Framework\) protocol add some additional protection. In 
 
 According to the configuation of the protocol it can drop the email or keep \(and maybe add some suspicion flag to it\) when the address doesn't match the expected one.  
 
-So if the protocol is wrongly used \(common case...\) then it will practically do nothing against spoofing attacks.
+So if the protocol is **wrongly used** \(common case...\) then it will practically do nothing against spoofing attacks.
 
 ### Checking wrong identifier
 
-There is a fatal design flaw with the SPF protocol. It only checks the sender of the envelope \(MAIL FROM\) and doens't take into account the headers of the message \(From\). As we said before these two values can be different event if it's not a common practice. 
+There is a **fatal design flaw** with the SPF protocol. It only checks the sender of the envelope \(MAIL FROM\) and doens't take into account the headers of the message \(From\). As we said before these two values can be different event if it's not a common practice. 
 
 Thus an attacker could use a legitime address for the envelope \(so it will pass the SPF check\) with a different _From_ header. Because the user will only see the _From_ header it won't suspect the email coming from another person.
 
 ## DKIM
 
+DKIM \(_DomainKeys Identified Mail_\) is a more granular protocol than SPF that uses cryptography to **sign** message body and some headers with a published key.
+
+Every mail going outside a server with a DKIM protocol will get a signature that the receiver can verify by using the public key of the organization \(published in DNS\). 
+
+### Spoofing mails protected by DKIM
+
+The problem is that for the reciepter it's impossible to check whether there should have been a signature attached to the email. Thus even if it's hard to modify a DKIM header  it's possible and easy for an attacker to simply remove it.
+
 ## DMARC
 
-## Unauthenticated relays
+_Domain Message Authentication Reporting and Conformance_ protocol.
+
+Two terms important here:
+
+1. Reporting: 
+
+* 
+1. Conformance: 
+
+* Requires either SPF or DKIM to be passed for delivery \(the headers can no longer simply be removed\)
+* Makes SPF check the _From_ header \(the attacker can no longer set different values for the sender in the envelope and the header of the message as a way of spoofing\)
+
+### Spoofing mails protected by DMARC
+
+The following picture sumarize the combinaisons of the three protocols, **SPF+DKIM+DMARC** being the best of all.
+
+But because there is no way in DMARC to force the use of SPF and DKIM thogether as a penetration tester we can juste ignore DKIM, SPF being the weakest link.
+
+![Protocols combinaisons](.gitbook/assets/dmarc.png)
+
+Unfortunately even if DMARC is the best solution out there it's currently not widely used by the organizations.
+
+
 
 
 
