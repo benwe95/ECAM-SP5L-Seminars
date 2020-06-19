@@ -49,7 +49,7 @@ For example, an interesting thing to notice is that each address appears two tim
 1. In the enveloppe \(MAIL FROM and RCPT TO\)
 2. In the Headers of the content \(From and To\)
 
-In theory the address of one correspondant \(sender/receipter\) should be the same in the envelope and the message but there is nothing that prevent them to be different. As we will see this is the kind of trick that can be used while spoofing emails.
+In theory the address of one correspondant \(sender/recipient\) should be the same in the envelope and the message but there is nothing that prevent them to be different. As we will see this is the kind of trick that can be used while spoofing emails.
 
 ![An simplified example of SMTP conversation](.gitbook/assets/smtp-3.png)
 
@@ -106,11 +106,11 @@ Thus an attacker could use a legitime address for the envelope \(so it will pass
 
 DKIM \(_DomainKeys Identified Mail_\) is a more granular protocol than SPF that uses cryptography to **sign** the body of the message and some headers with a published key.
 
-Every mail going outside a server with a DKIM protocol will get a signature that the receipter can verify by using the public key of the organization \(published in a DNS\). 
+Every mail going outside a server with a DKIM protocol will get a signature that the recipient can verify by using the public key of the organization \(published in a DNS\). 
 
 ### Spoofing mails protected by DKIM
 
-The problem is that for the receipter it's impossible to check whether there should have been a signature attached to the email. Thus even if it's hard to modify a DKIM header  it's possible and easy for an attacker to simply remove it.
+The problem is that for the recipient it's impossible to check whether there should have been a signature attached to the email. Thus even if it's hard to modify a DKIM header  it's possible and easy for an attacker to simply remove it.
 
 ## DMARC
 
