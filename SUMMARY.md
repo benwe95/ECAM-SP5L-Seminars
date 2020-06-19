@@ -8,4 +8,6 @@
 * [Email authentication for penetration testers](email-authentication-for-penetration-testers.md)
 * [Quantum Computing: Are we there yet?](quantum-computing-are-we-there-yet.md)
 * [The year of the virtual Linux Desktop](the-year-of-the-virtual-linux-desktop.md)
+* [State of the Onion: The Road to Mainstream Adoption and Improved Censorship Circumvention](state-of-the-onion-the-road-to-mainstream-adoption-and-improved-censorship-circumvention.md)
+* [How Containers and Kubernetes re-defined the GNU/Linux Operating System](how-containers-and-kubernetes-re-defined-the-gnu-linux-operating-system.md)
 
