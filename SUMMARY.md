@@ -10,4 +10,6 @@
 * [The year of the virtual Linux Desktop](the-year-of-the-virtual-linux-desktop.md)
 * [State of the Onion: The Road to Mainstream Adoption and Improved Censorship Circumvention](state-of-the-onion-the-road-to-mainstream-adoption-and-improved-censorship-circumvention.md)
 * [How Containers and Kubernetes re-defined the GNU/Linux Operating System](how-containers-and-kubernetes-re-defined-the-gnu-linux-operating-system.md)
+* [The Five Phases of Ethical Hacking](the-five-phases-of-ethical-hacking.md)
+* [Blockchain Beyond the Hype: Real Use Cases](blockchain-beyond-the-hype-real-use-cases.md)
 
