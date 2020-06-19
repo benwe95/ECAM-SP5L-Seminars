@@ -38,24 +38,53 @@ If Alice is communicating with a colleague than they are using the same domain \
 
 ![](.gitbook/assets/smtp-2.png)
 
-### SMTP Structure
+### SMTP Structure and Standards
 
-The SMTP protocol is a plain text protocol that involves an **enveloppe** and a **content** with _headers_ and a _body_.
+The SMTP protocol is a plain text protocol that involves an **enveloppe** and a **content** with some _headers_ and a _body_.
 
-An intersting thing to notice is that each address appears two times: 
+An interesting thing to notice is that each address appears two times: 
 
 1. In the enveloppe \(MAIL FROM and RCPT TO\)
 2. In the Headers of the content \(From and To\)
 
 ![An simplified example of SMTP conversation](.gitbook/assets/smtp-3.png)
 
-What is important to understand is that they are some standards for the headers but **in practice we can deliver messages with malformed headers.** Thus the penetration testers can play with this rules to find some breaches in the organization servers.
+What is important to understand is that there are some standards defined for the headers but **in practice we can deliver messages with malformed headers.** Thus the penetration testers can play with this rules to find some breaches in the organization servers.
 
 ![Example of SMTP standards for headers](.gitbook/assets/smtp-standards.png)
 
 ## Basic Spoofing
 
+### Data flow in spoofing attacks
+
+In this first scenario the pentester Chuch is spoofing Alice's email. He will send and an email to Bob pretending it comes from Alice. The email **won't go through** Alice's system \(outgoing server\)
+
+![](.gitbook/assets/spoofing-1.png)
+
+In the second case the pentester is trying to send a spoof email to Alice pretending to be Bob. The email **go through** Alice's system.
+
+![](.gitbook/assets/spoofing-2.png)
+
+The question is: _"which way is easier to protect?"_ \(Rep: even if we have some kind of control on the system in the second case the first one is easier to protect!\)
+
+### A spoofed SMTP conversation
+
+The SMTP protocol by itself doesn't have any protection against spoofing. If Chuck sends an email to Bob pretending to be Alice than the enveloppe and message of the email \(according to the protocol\) will look exactly the same as if Alice sent the email!
+
+### Ad-hoc protection mechanisms
+
+Because of these vulnerabilities, email admins tried to implement some non standards additional filters and protection mecahnisms for their organization. But in practice this is clearly not sufficient to be effective.
+
+> Examples: 
+>
+> * checking if the sender \(MAIL FROM\) exists by sending back a message \(SMTP callback\)
+> * trying to reach  the hostname of the HELO server by contacting a DNS server and compare the IP address
+
 ## SPF
+
+The SPF \(Sender Policy Framework\) protocol add some addictional protection. In this case when an email arrives to Bob's incoming server it will automatically check the ip address by querying a DNS back to see if it corresponds to the outgoing server of Alice's organization.
+
+![](.gitbook/assets/spf.png)
 
 ## DKIM
 
