@@ -1,49 +1,69 @@
+---
+description: 'Live Conference - Elastic - Thursday, May 21 2020'
+---
+
 # Elastic Observability Engineer Training Preview: structuring data
 
-Thursday, May 21 2020
+This is a technical presentation about the observability in Elasticsearch. Thus for the purpose of the summary I have only kept the concepts and overview that were presented.
 
-Observability in elastic search.
+## Elastic and the Elastic Stack
 
-This is a technical presentation so for the purpose of the sumary I have only kept the concepts and overview.
+Elastic is a company specialized in the **exploration and analysis of data**. They offer many open source products that can be used individually or as a whole stack.
 
-## Elastick Stack
+![Elastic Stack](.gitbook/assets/stack.png)
 
-\[diagram\]
+### Kibana
 
-* Kibana: View the data, manage
-* elastic: store data
-* Ingest layer= 
-* * beats ; family of software with dedicated purpose
-  * logstash
+Kibana can be considered as the top layer of the stack. It's a user interface that allows to view and manage the data. It's a great way to present the information with dashboards containing graphs, charts, ...
 
-## Structuring and Processing Data in elasticsearch
+### Elasticsearch
+
+Elastic search is the core layer that stores the data. It's not a classical database \(neither relational nor NoSQL\). Instead its a **reverse index** that allows to construct a distributed search engine for fast request and analysis of the data.
+
+### Logstash
+
+As part of the ingest layer, logstach is a software component for data processing. It aggregates data from many sources and transform it then sends it to the storage layer.
+
+### Beats
+
+Beats is a family of softwares with dedicated purposes.
+
+## Structuring and Processing Data in Elasticsearch
 
 Modules 7 & 8 from the official course on observability.
 
 ### Datasets
 
-Data can come from many sources and in many formats. this is why we want to first structure tihs data before storing it.
+Data can come from many sources and in **many formats**. This is why we want to **first structure** this data **before storing** it.
 
-The goal is to parse and transform the unstructured data into discrete fields and make it easier to aggregate and visualiez the data.
+Thus the goal is to **parse** and **transform** the unstructured data into discrete fields and make it easier to aggregate and visualize the data.
 
-### Where can data be structured
+In the simple example below we can see that the log message is automatically parsed to structure the information as different fields: _timestamp, loglevel, status._
 
-\[diagram\]
+So instead of storing the only the core message we get more precise information that represent a huge benefit when it comes to query and analyse the data. Our goal is to understand how we can create a nice pipeline that exctract this kind of information ifficiently.
 
-There are to places where the data can be strucured
+![Data transformation example](.gitbook/assets/example.png)
 
-* within logstack
-* Within elasticsearch
+### Where can data be structured?
 
-### Elastic vs logstash
+There are to places where the data can be strucured:
 
-Logstash is a dedicated flexible ETL tool. Thus it can do further work than the basic pipeline of elasticsearch. But this ingest pipeline can be enough
+* within logstach
+* within elasticsearch
 
-.....
+![](.gitbook/assets/where-2.png)
+
+### What's the difference? Elastic vs logstash
+
+Most of the time we can get what we want with the pipeline of Elasticsearch. This is a straight solution which can be **easier** to implement instead of adding and configuring a logstach component \(if it's not already running in the stack\). The pipeline is a good starting point that can be scaled by adding new nodes.
+
+In the other hand Logstash is a dedicated flexible **ETL tool** _\(Extract, Transform, Load\)_. Thus it can do further work than the basic pipeline of elasticsearch which has some limitations.
 
 ### What if your logs are not in a known format
 
-### elasticsearch ingest pipelines
+If the data is not in specific format then it's necessary to build our own pipeline by defining the rules of the different **ingest processors** that strucuture the data in a sequential way. This is the topic of the next section. 
+
+## Elasticsearch ingest pipelines
 
 a set of processors that can modify the documents passed through it. Each processor is dedicated to a task. This happens within the ingest node.
 
