@@ -4,7 +4,7 @@ description: 'Live Conference - Elastic - Thursday, May 21 2020'
 
 # Elastic Observability Engineer Training Preview: structuring data
 
-This is a technical presentation about the observability in Elasticsearch. Thus for the purpose of the summary I have only kept the concepts and overview that were presented.
+This is a technical presentation about the observability in Elasticsearch. It's part of a larger training program proposed by the Elastic team. 
 
 ## Elastic and the Elastic Stack
 
@@ -92,31 +92,13 @@ We define a pattern \(like a kind of regular expression\) that tells the process
 
 ![](.gitbook/assets/dissect.png)
 
-It can also be used to extract Key-Value pairs : %{field-key}=%{field-value}
-
 ### Script Processors
 
-There are some existing processors that are already fully functional.But because its not posible to cover use case it's possible to create its own processor. This is made by using a special syntax- Painless
+There are some existing processors that are already fully functional.But because its not posible to cover use case it's possible to create its **own processor**. This is made by using a special syntax - _**Painless**_ scripts. 
 
-Two ways to run Painless script: inline \(for small task\) and stored.
+This processors are usefull for example to do mathematic operations with pre-build java functions or complex conditional operations,...
 
-
-
-## Demo
-
-Using cloud.elastic.co and its Learning portal from the training section.
-
-Its important to remember that is a pipeline. Each processor is executed in a queue an the result from one feeds the next one.
-
-the key-value  processor is great but the extraction can also be done within the dissect processor.
-
-The script is really useful example for doing math with pre-build java functions or conditional operations...
-
-the if option is accessible with every pipeline.
-
-Painless lab is accessible throught the cloud.
-
-The ingest node is the one who executes the pipeline
+The Painless lab is accesible through the cloud using cloud.elastic.co. It's a great Learning portal for training the syntax.
 
 ## Conclusion
 
