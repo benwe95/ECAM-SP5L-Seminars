@@ -63,7 +63,7 @@ The programming is made with graphical blocks representing the quantum gates tha
 
 ![Main programming interface ](.gitbook/assets/programming.png)
 
-## Applications domains and use case
+## Applications domains and use cases
 
 > _"The quantum computing may provide a new path to solve some of the hardest or most memory intensive problems for classical computers in business and science fields."_
 
@@ -91,7 +91,13 @@ The IBM Q Network is a network of organizations composed of different kinds of c
 
 Their aim is to build a network of partners to collaborate on the technology and make it evolve faster because for the moment it's still far from mature. IBM wish to accelerate the research and develop commercial applications.
 
+Thus they organize training sessions, workshops, presentations,... accross the world to help people better understand what they do and to encourage them to join IBM Q Network in this journey towards the new era of quantum computing.
+
 ## Conclusion
+
+Although the concepts behinds the technology \(quantum mechanics, quantum circuits, ....\) are really hard for me to understand I though this presentation was a nice introduction to see what's happening right now in the quantum computing era.
+
+For sure there is still a lot of work to do and researches before the technology is fully functional. But when it will be mature it could potentiality make a huge disruption in the use cases presented before. 
 
 
 
