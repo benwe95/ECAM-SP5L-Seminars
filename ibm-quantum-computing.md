@@ -57,27 +57,27 @@ IBM provides the [**Qiskit Software stack**](https://qiskit.org/) ****for the de
 
 ![Qiskit Software Stack](.gitbook/assets/qiskit.png)
 
-* AQUA is the main component to program the computer. It allows the developers to add building blocks, algorithms and applications \(chemistry, finance, ai, optimization\) ready-to-use.
+* AQUA is the main component to program the computer. It allows the developers to add building blocks, algorithms and applications ready-to-use.
 
 The programming is made with graphical blocks representing the quantum gates that are applied on the qubits.
 
 ![Main programming interface ](.gitbook/assets/programming.png)
 
-on construit un "quantum circuit" en appliquant des portes aux qbits.
-
-La programmation se fait principalement via les portes qui peuvent également être utilisé via python
-
-Actuellement de nombreuses banques travaillent sur l'informatique quantique
-
 ## Applications domains and use case
 
-un ordi quantique a pour but de répondre à certains problèmes, ex:
+> _"The quantum computing may provide a new path to solve some of the hardest or most memory intensive problems for classical computers in business and science fields."_
 
-* les problèmes pour lesquelles la **complexité est exponentielle**
+Quantum computers will be very efficient for problems with an exponetial complexity.
 
-avec n qbits on peut obtenir 2\*\*n etats possibles
+![Expected saving time for problems with exponential complexity](.gitbook/assets/exponential-complexity.png)
 
+There are many potential use cases where the use of quantum computing is expected to made a huge difference such as:
 
+* Chemicals and petroleum
+* Distribution an logistics
+* Financial services
+* Health care and life sciences
+* Manufacturing
 
 ## IBM Q network
 
