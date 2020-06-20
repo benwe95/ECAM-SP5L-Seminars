@@ -81,17 +81,15 @@ There are many potential use cases where the use of quantum computing is expecte
 
 ## IBM Q network
 
-le but est de construire un réseau de partenaires \(etudiants, institutions, startups...\) qui collaborent pour faire évoluer la technologie qui est encore loin d'être mature.
+The IBM Q Network is a network of organizations composed of different kinds of contributors:
 
-accéléré la recherche en info quantique
+* Industry partners
+* Hubs
+* Members
+* Startups
+* Academic
 
-développer des applications commerciales
-
-
-
-quantfi -&gt; startup francaise finance
-
-
+Their aim is to build a network of partners to collaborate on the technology and make it evolve faster because for the moment it's still far from mature. IBM wish to accelerate the research and develop commercial applications.
 
 ## Conclusion
 
