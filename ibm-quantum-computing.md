@@ -4,66 +4,64 @@ description: Mardi 28 janvier 2020
 
 # IBM Quantum Computing
 
-## State of the art \(harware and software\)
+## State of the art \(harware and software\) - Important dates
 
-Quantum computing = basé sur la physique quantique, années 90 pour les ordinateur
+#### Quantum science
 
-1970 naissance de la théorie de l'information quantique
+Creation of the fundamental theoritical and physical building blocks of Quantum Computing \(QC\)
 
-1996 critères de construction d'un ordi quantique \(IBM\)
+* 1970: Birth of quantum information theory
+* 1996: DiVincenzocreiteria for building a quantum computer \(IBM\)
+* 2007: the transmon superconduction qubit
 
-2007 premier Qubit pour IBM
+#### Quatum ready
 
-2016 disponibilité dans le cloud \(IBM\) --&gt; ibm q network
+Materialization and preparation for the quantum computing era.
 
+* 2016: IBM make quantum computing available on IBM Cloud \(IBM Q Network\)
 
+#### Quantum advantage: next step
 
-But d'ici quelques années est de montrer l'utilité de l'info quantique dans le cas de CERTAINS problème qui seront résoluts plus rapidement avec des algos quantiques. D'ici là on sait que ce ne sera pas répandu, on veut pouvoir identifier les applications/problèmes qui sont concernés.
+The goal for the next years is to demonstrate the utility of quantum computing for solving some specific kind of problems faster than the classical computing algorithms. 
 
+Because not everything is mean to be solve by the QC the purpose now is to **identify the applications** and use cases that are concerned.
 
+## Quantum Computing is based on essential ideas from quantum mechanics
 
-La base est le QUBIT 
+The base unit of the QC is the **Qubit** which differs from the simple bit \(0 or 1\) used in classical computing up to now. Its properties come from the fundamentals of quantum mechanics:
 
-Contrairement au bit classique - 0 ou 1, seulement deux états possible
+* **Superposition**: by opposition of the bit which has only two possible states \(0 or 1, one at a time\), the qubit can be at the same time in an inifinity of different states which values are between 0 and 1. This property is the main advantage of using qubit.
+* **Measurement:** forces a qubit to states of a qubit based on probabilities
+* **Entanglement:** qubits are links together in a certain way, their quantum states are not independent. Thus by measuring a qubit we can deduce the states of another close qubit.
+* **Quantum gates:** as logical gates \(OR, AND, + ...\) in classical numeric electronic, QC uses special gates to perform the basic computational operations on qubits
 
-le qbit est l'unité de base et peut être dans un état compris entre 0 et 1 --&gt; "infinité" d'états possibles AVANTAGE principal
+## IBM quantum computing system accessible in the cloud
 
---&gt; qbit : superpostion and entanglement=supposons deux bits classiques si je mesure celui de droite je ne peux pas déduire la valeur de celui de gauche. Au contraire avec les qbit, je peux déduire l'état d'un bit selon ses voisins? les états sont reliés d'une certaine façon
+IBM provides some kind of quantum computing hardware accessible in the cloud \(not yet a real QC but more like an emulation\)
 
-we will apply to te qbit some quantum gates
-
-
+BUT solving problems with QC is totally different from the classic algorithms and concepts that we traditionaly use. The users will have to prepare some kind of hybrid  "quantum-classical" algorithms that they will send to the quantum computer. Another computer is responsible to translate these algorithms in signals that will manipulate the superposition and entanglement of the qubits.
 
 On envoit des signaux aux qbits pour manipuler la superpostion et l'entaglement.  le système est refroidit à 0.02°Kelvin , c'est une nécessité pour que le système agisse comme un ordinateur quantique.
 
+## Quantum volume
 
+Its important to understand that it's not only the number of qubits that defines the performance of the computation but also the way they are used.
 
-le but d'imb est de dévlopper du vrai hardware. celui-ci est mis à disposition depuis le cloud.
+The quantum volume is the **capacity to measure the performance gain** obtained by adding more qubits.This value is influenced by many technical factors. It's harder to optimize than a traditional computer.
 
-L'utilisateur developpe ses algorithme et les envoie pour une "compulation" en signaux qui seront utilisés pour manipuler les qbits.
+For example one critical aspect is the topology of the qubits \(aka their interconnections\)
 
-U ordi quantique ne fonctionne pas seul!! il est toujours accompagné d'un ordi classique qui permet la traduction des algos en signaux, qui permet d'avoir des algos plus performants en quantique
+## How to use IBM Quantum Computer \(software\)
 
+IBM provides the [**Qiskit Software stack**](https://qiskit.org/) ****for the developers to use the computer in the cloud.
 
+![Qiskit Software Stack](.gitbook/assets/qiskit.png)
 
-Quantum Volume = capacité de mesurer le gain en performance obtenu lorsqu'on augmente le nombre de qbits,
+* AQUA is the main component to program the computer. It allows the developers to add building blocks, algorithms and applications \(chemistry, finance, ai, optimization\) ready-to-use.
 
-IBM s'attend à doubler l'usage chaque année, pas le nombre de qbits. **Ce n'est pas le nombre de qbits qui détermine les performances mais l'usage qu'on en fait.**
+The programming is made with graphical blocks representing the quantum gates that are applied on the qubits.
 
-**LE quantum volum**e est définit par différents critères techniques sur lesquels ils faut jouer pour gagner en performances \(-&gt; plus compliqué que en ordi classique\)
-
-Un **aspect critique est la topologie**=interconnexions des qbits
-
-
-
-Point de vue software - comment le programmer
-
-depuis leur interface cloud, QISKIT SOFTWAARE STACK programme dIBM pour programmer, proposer es building blocks disponibles gratuitemtn
-
-* AQUA -&gt; building block, algos et applications \(chemistry, finance, ai, optimization\) ensemble de algo quantiques prêts à l'emploi.
-* AER
-* IGNIS
-* TERRA
+![Main programming interface ](.gitbook/assets/programming.png)
 
 on construit un "quantum circuit" en appliquant des portes aux qbits.
 
@@ -92,6 +90,10 @@ développer des applications commerciales
 
 
 quantfi -&gt; startup francaise finance
+
+
+
+## Conclusion
 
 
 
