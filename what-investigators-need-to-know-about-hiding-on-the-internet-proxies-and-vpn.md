@@ -65,9 +65,43 @@ Websites may store **cookies** on the user's browser. A cookie is a **unique ser
 
 ### **Device fingerprinting**
 
+Whatever electronic device is used to go on the Internet \(computer, smartphone, playstation, ...\) there is always a **quartz crystall oscillator** solder on the motherboard. It's serves as a time base for the device.
 
+Every oscillator vibrates at a unique frequency due to some offset that makes it act as a fingerprint for the website that gets this information. 
 
+## How to hide
 
+There are many ways to hide our information and activity on the Internet but the ones  that will be covered here are: **Proxies** and **VPNs**
+
+### **Proxies**
+
+A proxy acts as intermediate node between the user and the wesbite so that the website see the ip of the proxy and not the ip of the user. Thus the user hide himself behind one or more proxies.
+
+![We can use as many proxies as we want](.gitbook/assets/proxies.png)
+
+If the proxy is **bulletproof** it means that there is no way to trace back the user. This can be due to the legislation of the country where the proxy is located. There may be no obligation for them to keep logs about the connections.
+
+#### Problems with proxies
+
+* The traffic is **not encrypted**. It means that people who owns the proxy could see the user's activity \(typical use of honeypot\)
+* Cost vs Lawful. A free proxy could be a scam or a corrupted server.
+* How can you be a 100% sure that the proxy doesn't store **log files**?
+
+### **VPNs \(Virtual Private Networks\)**
+
+![](.gitbook/assets/vpn.png)
+
+A VPN can do pretty much the same thing a proxy does but in addition it encrypts the connection all the way from the user's device to the VPN provider.
+
+By doing so the internet traffic can be intercepted by some malicious people \(our the ISP\) but he won't be able to understand the content. 
+
+For someone who is trying to hide its activity on Internet its important that its VPN provider has the follonwing properties:
+
+1. No logs
+2. Fast Speed
+3. Cryptocurrency as payment option
+4. Located in country that does not have MLAT with its own country
+5. Endpoints in several countries
 
 ## Conclusion
 
