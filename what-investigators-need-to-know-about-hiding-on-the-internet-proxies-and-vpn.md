@@ -23,7 +23,11 @@ Thus there is a lot of stuff happening on the Internet that's not part of the Wo
 
 ## Fingerprint \(FP\)
 
-The web \(1990\) has been designed in such a way that any server you look at on the web can also "look back at you". The domain reached by the user can retrieve information about him based on his....
+The web \(1990\) has been designed in such a way that any server you look at on the web can also "look back at you". The domain reached by the user gets information about him through differents methods: Ip fingerprinting, browser fingerprinting and device fingerprinting.
+
+They automatically give information about the user's internet connection when he is connecting on a website: **passive tracking**
+
+But there are also other ways to identify and track a user activity on the web: **active tracking**.
 
 ### **IP fingerprinting** 
 
