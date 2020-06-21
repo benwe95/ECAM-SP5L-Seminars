@@ -48,7 +48,7 @@ Every new transaction is a part of the next block \(that contains many other tra
 
 ![](.gitbook/assets/transaction.png)
 
-Every miner will check the balance of the creditor account to see if there is enough to make the paiement \(REM: the balance itself is not stored explicitly. It's always calculated by adding up all the previous transactions recorded on the blockchain for that account\). Then the block will be validated with complex mathematical operations. These operations require computational power that is provided by the miners \(with GPUs or dedicated "computers"\). The miners that can solve the mathematical problems will get a reward \(some TBC\).
+Every miner will check the balance of the creditor account to see if there is enough to make the paiement \(REM: the balance itself is not stored explicitly. It's always calculated by adding up all the previous transactions recorded on the blockchain for that account\). Then the block will be validated with complex mathematical operations. These operations require computational power that is provided by the miners \(with GPUs or dedicated "computers"\). The miners that can solve the mathematical problems will get a reward \(some BTC\).
 
 Once the block is confirmed and added to the blockchain then every node in the network \(the miners\) gets a copy of that new block to keep the contain of the chain up to date. 
 
@@ -58,15 +58,27 @@ Once the block is confirmed and added to the blockchain then every node in the n
 
 The blockchain is based on three major tehcnologies:
 
-1. **Private key cryptography**
-2. **Peer-To-Peer \(P2P\) Network**
-3. **Blockchain program**
+1. **Private key cryptography:** to secure identities and hash functions to make the blockchain immutable
+2. **Peer-To-Peer \(P2P\) Network:**  to maintain the consistency of the distributed ledger
+3. **Blockchain program:** to specify the requirements of the protocol 
 
 ## Blockchain Applications
 
+The blockchain is a **concept** that can be implemented in any programming language to address many different use cases \(the Bitcoin and the digital currencies are only one example\).
 
+In any blockchain all the transactions are logged and kept within the blocks. Each node of the network owns a full copy of the entire blockchain. 
 
-## Hands-on
+The feasability resposes on the competitive miners that provide computational power to validate the blocks.
+
+### Types of blockchain
+
+* **Public:** everyone can see, verify and use the blockchain.
+* **Private:** only specific people of the organization can verify and add new blocks but everyone is allowed to view it.
+* **Consortium:** a group of organizations \(ex: banks\) maintain the blockchain that's publicly available
+
+### Example of use case
+
+* The blockchain can be use for an **election.** It will track and count the votes avoiding fraud.
 
 ## Conclusion 
 
