@@ -10,7 +10,7 @@ description: Registered Conference - NW3C
 
 ## Internet
 
-A first thing to remember is that the web constitue only a small part of the Internet. There are other services running on the Internet Network that we tend to forget about such as:
+A first thing to remember is that the web constitues only a small part of the Internet. There are other services running on the Internet Network that we tend to forget about such as:
 
 * VoIP
 * Video Calling
