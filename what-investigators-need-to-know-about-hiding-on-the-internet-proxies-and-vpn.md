@@ -49,11 +49,15 @@ This kind of ip geolocation services are also used by websites to **adapt their 
 
 When a browser is accessing a website it automatically gives information about it such as: HTTP headers, OS version, Browser type and plugins, time zone, screen size, fonts, cookies enabled, ...
 
-This website [https://panopticlick.eff.org/kcarter](https://panopticlick.eff.org/kcarter) provides a great service to test what information is collected about our broswer when we are surfing on the net. 
+This website [https://panopticlick.eff.org/kcarter](https://panopticlick.eff.org/kcarter) provides a great service to test what information is collected about our broswer when we are surfing on the net.
+
+What's interesting to notice is that all the information given by my browser makes it unique among others. Thus my browser has a **unique fingerprint** which is bad if I am trying to hide on the web. In other words it would be better if my settings/information were the same as other people.
 
 ![Tracking test on panopticlick](.gitbook/assets/browser-fingerprinting.png)
 
 #### **Active fingerprinting**
+
+Websites may store **cookies** on the user's browser. A cookie is a **unique serial number** **that identifies the browser** on this website or any other website in parternship with this one. Thus they can track part of the user's activity on the web.
 
 ### **Device fingerprinting**
 
