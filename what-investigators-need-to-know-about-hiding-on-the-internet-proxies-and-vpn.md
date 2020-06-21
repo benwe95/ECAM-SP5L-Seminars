@@ -105,3 +105,7 @@ For someone who is trying to hide its activity on Internet its important that it
 
 ## Conclusion
 
+In this presentation the instructor gave the fundamentals basis of fingerprinting on the Internet. 
+
+What was interesting was the demonstrations and references he gave
+
