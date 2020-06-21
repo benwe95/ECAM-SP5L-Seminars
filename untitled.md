@@ -82,3 +82,9 @@ The feasability resposes on the competitive miners that provide computational po
 
 ## Conclusion 
 
+This "non-technical" presentation was a good overview of the main concepts about the blockchain technology. 
+
+It was mainly focus on the financial sector which is represent the fundamentals problems that lead to design such a technology.
+
+Thus we saw how this decentralized P2P network address this concerns and solve them with security, transparency et resilience.
+
