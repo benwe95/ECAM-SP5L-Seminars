@@ -6,7 +6,7 @@ description: 'Live conference - 101 Blockchain - Wednesday, 20 May 2020'
 
 ## Introduction
 
-### _Alisa DiCaprio_ from [R3](https://www.r3.com/)  
+### _Alisa DiCaprio_, R3  
 
 ### 2008 - 2019
 
