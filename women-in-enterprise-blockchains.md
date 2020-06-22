@@ -40,24 +40,23 @@ The Blockchain is a functional tool in the **digital transformation** to help ot
 
 ### _Dr. Amber Ghaddar_, AllianceBlock
 
-ex: COVID-19 Zero trust when bying mask, ... -&gt; you don't know who you're speaking to and even if they exist
+Until now there are some problems **of trust** in the financial trades. When making a deal with some organization/people we can't always be sure of their identity.
 
-You need to validate yourself every entity from the process -&gt; it would be greater if they would come by theirselves on a platform and present themselves with some prooves.
+This is something we saw happening recently during the COVID crisis when countries bought masks to some entreprises that were pure scams. With the emergency of the situation they were in hurry to by these products and they didn't really know who they're speaking to and even if these selling organizations existed for real.
 
-BC has arrived in the financial industry which is heavliy regulated comparated to any other. You need to integrate all these regulations.
+Moreover in this case of trade we are not speaking about two intervenants but many at a time: the **buyer** get in touch with a seller, the **seller** has a supplier, the **supplier** is in touch with an **othaurized distributer** who is in contact with the **factory**. Thus for each intervenant there is a risk of fraud about its identity that you need to validate yourself by making researches. This is can be a tremendous process.
 
+An another approach way simpler would be a "unique" platform where any intervenant in the world could identitfy himself giving some proofs about who he is. Such a system could be done with blockchain.
 
+However this change would cause some disruption in the way things work today. In a sector such as financial trading which is heavily regulated this is something that will be hard to implement.
 
-Two type: 
+**Self-Sovereign Identity** is a model for managing digital identity in which a person/organization has a total control on its own data. These could be crossed data from social media, pictures, medical records, ... anything that he chooses to publicly share. That could be stored and secured within a blockchain. Moreover everyone could monetize his own data instead of having big identities \(Facebook, Google, ...\) selling our data to other companies.
 
-1. NATURAL = a person
-2. Company
+### _Genevieve Leveille_, Agriledger
 
+In her speech Mrs Leveille presents a concrete implementation of the Blockchain to track the process of selling mangos from a farmer in Haïti to the consumer. 
 
-
-### _Genevieve LEveille_, Agriledger
-
-Track the process of selling mango from farmer to the consumer.
+In this use case the interest of the blockchain is for the consumer to be able to **identify** the product he is bying. In other words to get every information about this mango from its harvest in Haïti, its worldwide transportation up to the shelving in the store. Every single stage of the process is tracked and kept in the blockchain so that the buyer can access these information by scanning a QR code on the mango.
 
 ### _Laura De Giovanni_, Tiiqu
 
