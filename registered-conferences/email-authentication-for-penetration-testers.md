@@ -14,7 +14,7 @@ Topics: _"How to fake an Email", "Email Conterfeiting", "Strategies for modern a
 
 There are many different technologies that can be adopted to secure email usage and it can be difficult to know what should be implemented for a specific organization.
 
-One way to choose from them and implementing it in a proper way is by doing some penetration testing. Looking the security of email form the perspective of an attacker is a great way to understand it and to adopt relevant countermeasures.
+One way to choose them and implementing it in a proper way is by doing some penetration testing. Looking the security of email from the perspective of an attacker is a great way to understand it and to adopt relevant countermeasures.
 
 The email threat landscape is pretty large but this talk is focusing on the **spoofing.**
 
@@ -26,27 +26,27 @@ SMTP is a protocol that underlies some email communications.
 
 The following image shows the data flow happening when someone \(Alice\) sends an email to another person \(Bob\) from a **different organization**.
 
-Normally each organization has its own **servers** for **incoming** and **outgoing** emails. If the company wants its domain to be accessible from others \(_the outside world_\) than it has to be registered to some kind of DNS, the MX, which will give the IP address of the incoming server to the transmitter of the email.
+Normally each organization has its own **servers** for **incoming** and **outgoing** emails. If the company wants its domain to be accessible from others \(_the outside world_\) then it has to be registered to some kind of DNS, the MX, which will give the IP address of the incoming server to the transmitter of the email.
 
-Thus when Alice sends an email to Bob it first goes to the outgoing server which retrieves the address of  Bob's incoming server and then sends the email.
+Thus when Alice sends an email to Bob, it first goes to the outgoing server which retrieves the address of Bob's incoming server and then sends the email.
 
-For a penetration tester its important to think about the different servers \(even if its physically on the same machine\) because they use different configurations thus we need to check for both of them. The client of the pentester only controls part of the protocol during a communication: \(1\) the outgoing server when sending an email, \(2\) the incoming server when receiving an email.
+For a penetration tester, its important to think about the different servers \(even if it can be physically on the same machine\) because they use different configurations thus we need to check for both of them. The client of the pentester only controls part of the protocol during a communication: \(1\) the outgoing server when sending an email, \(2\) the incoming server when receiving an email.
 
 ![](../.gitbook/assets/smtp.png)
 
-If Alice is communicating with a colleague than they are using the same domain \(same servers\) with two logical servers but in this case they both belongs to the same organization \(the client\).
+If Alice is communicating with a colleague, then they are using the same domain \(same servers\) with two logical servers but in this case they both belong to the same organization \(the client\).
 
 ![](../.gitbook/assets/smtp-2.png)
 
 ### SMTP Structure and Standards
 
-The SMTP protocol is a plain text protocol that involves an **enveloppe** and a **content** with some _headers_ and a _body_.
+The SMTP protocol is a plain text protocol that involves an **envelope** and a **content** with some _headers_ and a _body_.
 
 What is important to understand is that there are some standards that define the use of the headers but **in practice we can deliver messages with malformed headers.** Thus the penetration tester can play with this rules to find some breaches in the organization servers.
 
 For example, an interesting thing to notice is that each address appears two times: 
 
-1. In the enveloppe \(MAIL FROM and RCPT TO\)
+1. In the envelope \(MAIL FROM and RCPT TO\)
 2. In the Headers of the content \(From and To\)
 
 In theory the address of one correspondant \(sender/recipient\) should be the same in the envelope and the message but there is nothing that prevent them to be different. As we will see this is the kind of trick that can be used while spoofing emails.
@@ -73,26 +73,26 @@ Answer: even if we have some kind of control on the system in the second case th
 
 ### A spoofed SMTP conversation
 
-The SMTP protocol by itself **doesn't have any protection against spoofing**. If Chuck sends an email to Bob pretending to be Alice than the envelope and message of the email \(according to the protocol\) will look exactly the same as if Alice sent the email!
+The SMTP protocol by itself **doesn't have any protection against spoofing**. If Chuck sends an email to Bob pretending to be Alice then the envelope and message of the email \(according to the protocol\) will look exactly the same as if Alice sent the email!
 
 ### Ad-hoc protection mechanisms
 
-Because of these vulnerabilities, email admins tried to implement some non-standards additional filters and protection mecahnisms for their organization. But in practice this is clearly **not sufficient** to be effective.
+Because of these vulnerabilities, email admins tried to implement some non-standards additional filters and protection mechanisms for their organization. But in practice this is clearly **not sufficient** to be effective.
 
 > Examples: 
 >
 > * checking if the sender \(MAIL FROM\) exists by sending back a message \(SMTP callback\)
-> * trying to reach  the hostname of the HELO server by contacting a DNS server and compare the IP address
+> * trying to reach the hostname of the HELO server by contacting a DNS server and comparing the IP addresses
 
 ## SPF
 
-The SPF \(_Sender Policy Framework_\) protocol add some additional protection. In this case when an email arrives to Bob's incoming server it will automatically check the ip address by querying a DNS back to see if it corresponds to the outgoing server of Alice's organization. 
+The SPF \(_Sender Policy Framework_\) protocol adds some additional protection. In this case when an email arrives to Bob's incoming server it will automatically check the ip address by querying a DNS back to see if it corresponds to the outgoing server of Alice's organization. 
 
 ![](../.gitbook/assets/spf.png)
 
 ### Spoofing mails protected by SPF
 
-According to the configuation of the protocol it can drop the email or keep it \(and maybe add some suspicion flag to it\) when the address doesn't match the expected one.  
+According to the configuration of the protocol it can drop the email or keep it \(and maybe add some suspicion flag to it\) when the address doesn't match the expected one.  
 
 But if the protocol is **wrongly used/configured** \(common case...\) then it will do nothing against spoofing attacks.
 
@@ -100,7 +100,7 @@ But if the protocol is **wrongly used/configured** \(common case...\) then it wi
 
 There is a **fatal design flaw** with the SPF protocol. It only checks the sender of the envelope \(_MAIL FROM_\) and doens't take into account the headers of the message \(_From_\). As we said before these two values can be different event if it's not a common practice. 
 
-Thus an attacker could use a legitime address for the envelope \(so it will pass the SPF check\) with a different _From_ header. Because the user will only see the _From_ header it won't suspect the email coming from another person.
+Thus an attacker could use a legitime address for the envelope \(so it will pass the SPF check\) with a different _From_ header. Because the user will only see the _From_ header he won't suspect the email coming from another person.
 
 ## DKIM
 
@@ -110,7 +110,7 @@ Every mail going outside a server with a DKIM protocol will get a signature that
 
 ### Spoofing mails protected by DKIM
 
-The problem is that for the recipient it's impossible to check whether there should have been a signature attached to the email. Thus even if it's hard to modify a DKIM header  it's possible and easy for an attacker to simply remove it.
+The problem is that for the recipient it's impossible to check whether there should have been a signature attached to the email. Thus even if it's hard to modify a DKIM header it's still possible and easy for an attacker to simply remove it.
 
 ## DMARC
 
@@ -125,13 +125,13 @@ Two terms important here:
 1. Conformance: 
 
 * Requires either SPF or DKIM to be passed for delivery \(the headers can no longer simply be removed\).
-* Makes SPF check the _From_ header \(the attacker can no longer set different values for the sender in the envelope and the header of the message as a way of spoofing\).
+* Makes SPF check the _From_ header \(the attacker can no longer set different values for the sender in the envelope and the header of the message has a way of spoofing\).
 
 ### Spoofing mails protected by DMARC
 
-The following picture sumarize the combinaisons of the three protocols, **SPF+DKIM+DMARC** being the best of all.
+The following picture sumarizes the combinaisons of the three protocols, **SPF+DKIM+DMARC** being the best of all.
 
-But because there is no way in DMARC to force the use of SPF and DKIM thogether as a penetration tester we can juste ignore DKIM, SPF being the weakest link.
+But because there is no way in DMARC to force the use of SPF and DKIM together as a penetration tester we can juste ignore DKIM, SPF being the weakest link.
 
 ![Protocols combinaisons](../.gitbook/assets/dmarc.png)
 
