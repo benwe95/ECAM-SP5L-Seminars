@@ -8,47 +8,35 @@ description: 'Live conference - 101 Blockchain - Wednesday, 20 May 2020'
 
 _Alisa DiCaprio_ from R3  = blockchain platform to maintain them [https://www.r3.com/](https://www.r3.com/)
 
-### 2019 
+### 2008 - 2019
 
-#### Industry trends
+Since the begin of the blockchain the technology has kept growing and growing. These progress were made globally accross the industries in the world and there was no hub for innovation.
 
-* Development GLOBALY no hub for innovation
-* More equal fintech-bank relationship
-* Shift in fundin sources: more production
-
-#### deployments
-
-long term deployments for the industry.
-
-You gain the benefit with cloud structures. 
-
-#### overall growth
-
-Scalling, growing -&gt; everything great
+There were long term deployments and the cloud structures offered some benefits in the technical uses of the blockchain.
 
 ### March 11 2020
 
-####  Declining world trade
+#### Declining world trade and BCP implementation
 
-Accross the world everybody was capable to digital in crise situation.
+Since the begining of the COVI-19 crisis worldwide there was a decline in the world merchandise trade and all the regions were impacted.
 
-#### BCP implementation
+However an interesting thing to notice is that accross the world everybody was capable to **go digital in crise situation**.
 
-All banks had to establish **business continiuity plans** because nobody could go physocally. But they couldn't stop their activity. ICC = International Chamber of Commerce  
+For example, all banks had to establish **business continuity plans** because nobody could go physically and they couldn't stop their activity.
 
-Within a few weeks
+Thus within a few weeks we saw that the industries were capable of adopting new rules and processes to continue their activity online. The International Chamber of Commerce came with some guide of good practices.
 
 ### Blockchain's new path
 
 #### Enterprise implementations
 
-Focus on enterprise implementation. BC, open-source, public, entreprise. We need to go digital but not with some ramdom technology they need to be suited with the need. 
+Enterprises need to go digital but not with some ramdom technology. It has to be suited with their needs regarding the sercurity, the scalability, the intergration, their main activity,....
 
-#### Digital transformation
-
-BC is about a functional tool in digital transformation. To help other technologies to scale up and down. 
+The Blockchain is a functional tool in the **digital transformation t**o help other technologies to scale up and down. 
 
 ## Part 1 - Identity
+
+> _How organizations are balancing the need to secure personal privacy with the requirements to properly identify the parties involved in business transactions._
 
 ### _Dr. Amber Ghaddar_, AllianceBlock
 
@@ -83,6 +71,8 @@ Every data owner should be able to have access to his data and control it.
 
 ## Part 2 - Trade
 
+> _What its like to smoothly transition from traditional centralized sustems to decentralized and ditributed ledgers._
+
 ### _Mary Hall_, Oracle
 
 The technology works now it's not just a buzz word.
@@ -106,6 +96,8 @@ Tracking is vital.
 
 
 ## Part 3 - Sustainability
+
+> _Are there blockchain benefits for developing countries, those that are especially sensitive to sustainable trade practices._
 
 ### Krystal Webber, IBM
 

@@ -1,5 +1,5 @@
 ---
-description: 'Live Conference - Ionic Team - Wednesday, May 20 2020'
+description: 'Wednesday, May 20 2020'
 ---
 
 # Capacitor 2.0: Mobile apps & PWAs from one codebase
