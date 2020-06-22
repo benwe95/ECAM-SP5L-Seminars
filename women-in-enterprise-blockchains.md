@@ -89,6 +89,8 @@ Their goal is to create a new way to make fair decisions by bulding trust when s
 
 ### _Mary Hall_, Oracle
 
+Mrs Hall speaks about blockchain solutions for global trade and supply chains.
+
 The technology works now it's not just a buzz word.
 
 Fraude, control, transparency,..
@@ -99,11 +101,19 @@ Key BC differenciators
 
 
 
-### _Emmanuelle Ganne_
+### _Emmanuelle Ganne,_ Economic Research Department WTO
 
-_T_he crisis has shown the benefits of decentralization.
+_"How  the market of trade is transitioning from the traditional centralized system to a decentralized and distributed ledger?"_ 
 
-Tracking is vital.
+There are three main raisons for the adoption of the blockchain within the trade market:
+
+1. Enhancing transparency for the custmor and increase the trust
+2. Proove the authenticity of products and fight conterfeits
+3. Quickly track products
+
+With her entreprise they lead an investigation about the key benefits of the blockchain for the trade market and bellow are the results.
+
+![](.gitbook/assets/benefits.png)
 
 ### _Sheila Donohue_, Vero
 
