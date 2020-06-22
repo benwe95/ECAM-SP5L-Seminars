@@ -28,7 +28,7 @@ Ionic initialy uses Apache Cordova which is a development framework to build app
 
 Cordova provides the **native layer** which is required to access the functionalities of the device, it's a runtime tool: "_Write Once, Run Everywhere_". The code has to be written only once \(with web technologies\) and it can be executed on many systems, mobile and desktop. 
 
-![Cordova Principle \(from &quot;Reimagining Cordova: An Introduction to Capacitor&quot;\)](.gitbook/assets/cordova.png)
+![Cordova Principle \(from &quot;Reimagining Cordova: An Introduction to Capacitor&quot;\)](../.gitbook/assets/cordova.png)
 
 ## Introducing Capacitor 2.0
 

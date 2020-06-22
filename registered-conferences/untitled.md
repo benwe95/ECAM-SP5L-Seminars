@@ -46,13 +46,13 @@ _Example: James wants to transfer 500 bitcoins \(BTC\) to  Kevin..._
 
 Every new transaction is a part of the next block \(that contains many other transactions\) that will be validated by miners before it's added to the chain.
 
-![](.gitbook/assets/transaction.png)
+![](../.gitbook/assets/transaction.png)
 
 Every miner will check the balance of the creditor account to see if there is enough to make the paiement \(REM: the balance itself is not stored explicitly. It's always calculated by adding up all the previous transactions recorded on the blockchain for that account\). Then the block will be validated with complex mathematical operations. These operations require computational power that is provided by the miners \(with GPUs or dedicated "computers"\). The miners that can solve the mathematical problems will get a reward \(some BTC\).
 
 Once the block is confirmed and added to the blockchain then every node in the network \(the miners\) gets a copy of that new block to keep the contain of the chain up to date. 
 
-![Flow diagram](.gitbook/assets/flow.png)
+![Flow diagram](../.gitbook/assets/flow.png)
 
 ### Blockchain properties
 

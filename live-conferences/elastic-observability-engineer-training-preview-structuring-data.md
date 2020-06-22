@@ -10,7 +10,7 @@ This is a technical presentation about the observability in Elasticsearch. It's 
 
 Elastic is a company specialized in the **exploration and analysis of data**. They offer many open source products that can be used individually or as a whole stack.
 
-![Elastic Stack](.gitbook/assets/stack.png)
+![Elastic Stack](../.gitbook/assets/stack.png)
 
 ### Kibana
 
@@ -42,7 +42,7 @@ In the simple example below we can see that the log message is automatically par
 
 So instead of storing the only the core message we get more precise information that represent a huge benefit when it comes to query and analyse the data. Our goal is to understand how we can create a nice pipeline that exctract this kind of information ifficiently.
 
-![Data transformation example](.gitbook/assets/example.png)
+![Data transformation example](../.gitbook/assets/example.png)
 
 ### Where can data be structured?
 
@@ -51,7 +51,7 @@ There are to places where the data can be strucured:
 * within logstach
 * within elasticsearch
 
-![Stack architecture - Possible transformation stages](.gitbook/assets/where-2.png)
+![Stack architecture - Possible transformation stages](../.gitbook/assets/where-2.png)
 
 ### What's the difference? Elastic vs logstash
 
@@ -71,7 +71,7 @@ An Elasticsearch ingest pipeline is **a set of processors**. Each processor is d
 
 This processing happens within the ingest nodes before the documents are indexed.
 
-![Example of a pipeline processing each document through 3 processors](.gitbook/assets/pipeline.png)
+![Example of a pipeline processing each document through 3 processors](../.gitbook/assets/pipeline.png)
 
 ### How to define and test indgest pipelines?
 
@@ -90,7 +90,7 @@ There are simple processors that are ready to use such as the **Split** processo
 
 We define a pattern \(like a kind of regular expression\) that tells the processor how to separate the message according to its structure -&gt; dissection.
 
-![](.gitbook/assets/dissect.png)
+![](../.gitbook/assets/dissect.png)
 
 ### Script Processors
 

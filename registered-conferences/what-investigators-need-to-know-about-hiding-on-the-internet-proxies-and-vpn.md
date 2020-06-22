@@ -41,7 +41,7 @@ By **resovling** an ip with a [**whois search**](https://centralops.net/co/)**,*
 
 On the following example we can see that the result gives us the US Departement of Justice is the organization that ownes the ip addresses range 149.101.0.0 - 149.101.255.255 that correspond to our research.
 
-![Example of whois search](.gitbook/assets/whois.png)
+![Example of whois search](../.gitbook/assets/whois.png)
 
 Then we can also get some approximation of its localization by using **geolocation** services such as [https://www.maxmind.com/en/home](https://www.maxmind.com/en/home)
 
@@ -57,7 +57,7 @@ This website [https://panopticlick.eff.org/kcarter](https://panopticlick.eff.org
 
 What's interesting to notice is that all the information given by my browser makes it unique among others. Thus my browser has a **unique fingerprint** which is bad if I am trying to hide on the web. In other words it would be better if my settings/information were the same as other people.
 
-![Tracking test on panopticlick](.gitbook/assets/browser-fingerprinting.png)
+![Tracking test on panopticlick](../.gitbook/assets/browser-fingerprinting.png)
 
 #### **Active fingerprinting**
 
@@ -77,7 +77,7 @@ There are many ways to hide our information and activity on the Internet but the
 
 A proxy acts as intermediate node between the user and the wesbite so that the website see the ip of the proxy and not the ip of the user. Thus the user hide himself behind one or more proxies.
 
-![We can use as many proxies as we want](.gitbook/assets/proxies.png)
+![We can use as many proxies as we want](../.gitbook/assets/proxies.png)
 
 If the proxy is **bulletproof** it means that there is no way to trace back the user. This can be due to the legislation of the country where the proxy is located. There may be no obligation for them to keep logs about the connections.
 
@@ -89,7 +89,7 @@ If the proxy is **bulletproof** it means that there is no way to trace back the 
 
 ### **VPNs \(Virtual Private Networks\)**
 
-![](.gitbook/assets/vpn.png)
+![](../.gitbook/assets/vpn.png)
 
 A VPN can do pretty much the same thing a proxy does but in addition it encrypts the connection all the way from the user's device to the VPN provider.
 
