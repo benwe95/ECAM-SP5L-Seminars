@@ -62,26 +62,26 @@ This is a way for the consumer and any intervenant to get **insurances** about t
 
 ### _Laura De Giovanni_, Tiiqu
 
-The speaker point out two problems:
+The speaker points out two problems:
 
-1. There are lots of cases of **identity theft** every year. It can be hard to keep his own identity private
+1. There are lots of cases of **identity theft** every year. It can be hard for a someone to keep his own identity private.
 2. People can **lie about themselves** \(ex: job interviews\) and it's hard to verify what they claim.
 
 There is a global trend about Self-Sovereign Identity with the following benefits:
 
 * One login for everything on the net
-* More privacy and control for the user for its own data and how he shares it
+* More privacy and control for the user on its own data and how he shares it
 * No more paperwork
 * More transparency
 
 This SSI model could be great for users to protect their own data but there is no benefit regarding the trust. Some data can be subjectives and people could still lie about themselves.
 
-At Tiiqu they have develop to tehcnologies:
+At Tiiqu they have developed two technologies:
 
 1. a **Passport** for collecting immutable credentials
 2. a **Score** for measuring trustworthiness.
 
-Their goal is to create a new way to make fair decisions by bulding trust when someone has to proove who he claims to be.
+Their goal is to create a new way to make fair decisions by building trust when someone has to prove who he claims to be.
 
 ## Part 2 - Trade
 
@@ -89,19 +89,17 @@ Their goal is to create a new way to make fair decisions by bulding trust when s
 
 ### _Emmanuelle Ganne,_ Economic Research Department WTO
 
-_"How  the market of trade is transitioning from the traditional centralized system to a decentralized and distributed ledger?"_ 
+There are three main reasons for the adoption of the blockchain within the trade market:
 
-There are three main raisons for the adoption of the blockchain within the trade market:
-
-1. Enhancing transparency for the custmor and increase the trust
-2. Proove the authenticity of products and fight conterfeits
+1. Enhancing transparency for the customer and increase the trust
+2. Prove the authenticity of products and fight conterfeits
 3. Quickly track products
 
-With her research department they lead an investigation about the key benefits of the blockchain for the trade market and bellow are the results.
+With her research department they lead an investigation about the key benefits of the blockchain for the trade market and below are the results.
 
 ![](.gitbook/assets/benefits.png)
 
-According to her the COVID crisis has shown us that tracking becomes a vital operation in the trade market. It's important to connect platforms and market places to ease supply chain disruption.
+According to her, the COVID crisis has shown us that tracking becomes a vital operation in the trade market. It's important to connect platforms and market places to ease supply chain disruption.
 
 ## Part 3 - Sustainability
 
@@ -111,15 +109,15 @@ According to her the COVID crisis has shown us that tracking becomes a vital ope
 
 Her talk focuses on Blockchain **network design.** For her it's important to remember that "_we are using blockchain technology to **enable business transformation** at the level of a market, industry or ecosystem_".
 
-Going to scale with blockachain can be a long journey. The biggest part is to be able to precisely define the business that we want to digitalize.
+Going to scale with blockchain can be a long journey. The biggest part is to be able to precisely define the business that we want to digitalize.
 
 ### _Virginia Cram Martos,_ Triangularity SàRL
 
-Trade and Blockchain technology fit the description of the **United Nations 2030 Agenda** which emphasize the role of commerce, innovation and digital technology.
+Trade and Blockchain technology fit the description of the **United Nations 2030 Agenda** which emphasizes the role of commerce, innovation and digital technology.
 
-According to her the key for a sustainable business and blockchain is the **collaboration** based on **agreed rules**, **shared truth** and **real time access.** These are the main caracteristic of a blockchain.
+According to her the key for a sustainable business and blockchain is the **collaboration** based on **agreed rules**, **shared truth** and **real time access.** These are the main caracteristics of a blockchain.
 
-The business rules are implemented by contracts on the blockchain. These contract defines conditions, transactions timing, payments,...
+The business rules are implemented by contracts on the blockchain. These contracts define conditions, transactions timing, payments,...
 
 The shared truth corresponds to the transparency of many aspects of the trade: product tests, authorizations, timing of events, status of payments, certificates,...
 
@@ -127,7 +125,7 @@ Real time access is the fact to provide parties of the trade with the latest inf
 
 ### _Montse Guardia Guell_, Alastria Blockchain Ecosystem
 
-We are in an **age of transition,** it's time for us to change the way we are looking at things and create somtething new to really get the benefits of becoming digital.
+We are in an **age of transition,** it's time for us to change the way we are looking at things and create something new to really get the benefits of becoming digital.
 
 One of Alastria's mission is to democratize the access to blockchain by providing tools to promote access, adoption and use of the technology.
 
@@ -135,7 +133,11 @@ The added value of the blockchain is to create a sustainable ecosystem. A way to
 
 ## Conclusion
 
-This was a great 
+This was a great long conference. All these women have a great view of the business they are leading and the way the blockchain could be the next step for the financial market.
+
+The digital transformation should be a priority for the enterprises today. In some case the blockchain could be the technology they need to achieve their digitalization. 
+
+Because the implementation of the blockchain in a sector such as the financial market is a huge disruption that's hard to integrate, it's really important that organizations and people think together and collaborate to design the rules that will guide us through this changes.
 
 
 
