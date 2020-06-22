@@ -58,6 +58,8 @@ In her speech Mrs Leveille presents a concrete implementation of the Blockchain 
 
 In this use case the interest of the blockchain is for the consumer to be able to **identify** the product he is bying. In other words to get every information about this mango from its harvest in Haïti, its worldwide transportation up to the shelving in the store. Every single stage of the process is tracked and kept in the blockchain so that the buyer can access these information by scanning a QR code on the mango.
 
+This is a way for the consumer and any intervenant to get **insurances** about the product they are bying/selling and its quality because now  they can get the confirmation that the mango has passed every validation tests \(temperature, conservation, ...\).
+
 ### _Laura De Giovanni_, Tiiqu
 
 Creating a new way to make fair decision making. Bulding trust = journey -&gt; proove to be who you are.
