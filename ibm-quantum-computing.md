@@ -1,5 +1,5 @@
 ---
-description: Mardi 28 janvier 2020
+description: Live conference - Tuesday 28 January 2020
 ---
 
 # IBM Quantum Computing

@@ -1,42 +1,50 @@
-# Women in enterprise Blockchains
+---
+description: 'Live conference - 101 Blockchain - Wednesday, 20 May 2020'
+---
 
-Wednesday, 20 May 2020
+# Women in enterprise Blockchains
 
 ## Introduction
 
 _Alisa DiCaprio_ from R3  = blockchain platform to maintain them [https://www.r3.com/](https://www.r3.com/)
 
-### 2019 Industry trends
+### 2019 
+
+#### Industry trends
 
 * Development GLOBALY no hub for innovation
 * More equal fintech-bank relationship
 * Shift in fundin sources: more production
 
-### 2019 - deployments
+#### deployments
 
 long term deployments for the industry.
 
 You gain the benefit with cloud structures. 
 
-### 2019 - overall growth
+#### overall growth
 
 Scalling, growing -&gt; everything great
 
-### March 11 - declining world trade
+### March 11 2020
+
+####  Declining world trade
 
 Accross the world everybody was capable to digital in crise situation.
 
-### March 11 - BCP implementation
+#### BCP implementation
 
 All banks had to establish **business continiuity plans** because nobody could go physocally. But they couldn't stop their activity. ICC = International Chamber of Commerce  
 
 Within a few weeks
 
-### Blockchain's new path - enterprise implementations
+### Blockchain's new path
+
+#### Enterprise implementations
 
 Focus on enterprise implementation. BC, open-source, public, entreprise. We need to go digital but not with some ramdom technology they need to be suited with the need. 
 
-### BC new path - digital transformation
+#### Digital transformation
 
 BC is about a functional tool in digital transformation. To help other technologies to scale up and down. 
 
