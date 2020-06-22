@@ -125,7 +125,13 @@ The shared truth corresponds to the transparency of many aspects of the trade: p
 
 Real time access is the fact to provide parties of the trade with the latest information of these previously cited properties as soon as they are available.
 
+### _Montse Guardia Guell_, Alastria Blockchain Ecosystem
 
+We are in an **age of transition,** it's time for us to change the way we are looking at things and create somtething new to really get the benefits of becoming digital.
+
+One of Alastria's mission is to democratize the access to blockchain by providing tools to promote access, adoption and use of the technology.
+
+The added value of their blockchain is to create a sustainable ecosystem. A way to do it is by thinking at the new rules that we are establishing through the technology and by trying to standardize them. Thus for her, the sustainability is also a question of human collaboration to improve this technology and the way we ware implementing it today.
 
 
 
