@@ -6,7 +6,7 @@ description: 'Live conference - 101 Blockchain - Wednesday, 20 May 2020'
 
 ## Introduction
 
-_Alisa DiCaprio_ from R3  = blockchain platform to maintain them [https://www.r3.com/](https://www.r3.com/)
+_Alisa DiCaprio_ from [R3](https://www.r3.com/)  = blockchain platform to maintain them 
 
 ### 2008 - 2019
 
@@ -30,9 +30,9 @@ Thus within a few weeks we saw that the industries were capable of adopting new 
 
 #### Enterprise implementations
 
-Enterprises need to go digital but not with some ramdom technology. It has to be suited with their needs regarding the sercurity, the scalability, the intergration, their main activity,....
+Enterprises **need to go digital** but not with some ramdom technology. It has to be suited with their needs regarding the sercurity, the scalability, the intergration, their main activity,....
 
-The Blockchain is a functional tool in the **digital transformation t**o help other technologies to scale up and down. 
+The Blockchain is a functional tool in the **digital transformation** to help other technologies to scale up and down. 
 
 ## Part 1 - Identity
 
