@@ -131,7 +131,7 @@ We are in an **age of transition,** it's time for us to change the way we are lo
 
 One of Alastria's mission is to democratize the access to blockchain by providing tools to promote access, adoption and use of the technology.
 
-The added value of their blockchain is to create a sustainable ecosystem. A way to do it is by thinking at the new rules that we are establishing through the technology and by trying to standardize them. Thus for her, the sustainability is also a question of human collaboration to improve this technology and the way we ware implementing it today.
+The added value of the blockchain is to create a sustainable ecosystem. A way to do it is by thinking at the new rules that we are establishing through the technology and by trying to standardize them. Thus for her, the sustainability is also a question of human and organizations collaboration to improve this technology together and the way we ware implementing it today.
 
 
 
