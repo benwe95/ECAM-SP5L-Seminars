@@ -123,6 +123,8 @@ The business rules are implemented by contracts on the blockchain. These contrac
 
 The shared truth corresponds to the transparency of many aspects of the trade: product tests, authorizations, timing of events, status of payments, certificates,...
 
+Real time access is the fact to provide parties of the trade with the latest information of these previously cited properties as soon as they are available.
+
 
 
 
