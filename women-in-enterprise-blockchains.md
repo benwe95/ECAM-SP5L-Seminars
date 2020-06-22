@@ -6,7 +6,7 @@ description: 'Live conference - 101 Blockchain - Wednesday, 20 May 2020'
 
 ## Introduction
 
-_Alisa DiCaprio_ from [R3](https://www.r3.com/)  = blockchain platform to maintain them 
+### _Alisa DiCaprio_ from [R3](https://www.r3.com/)  = blockchain platform to maintain them 
 
 ### 2008 - 2019
 
@@ -87,20 +87,6 @@ Their goal is to create a new way to make fair decisions by bulding trust when s
 
 > _What its like to smoothly transition from traditional centralized sustems to decentralized and ditributed ledgers._
 
-### _Mary Hall_, Oracle
-
-Mrs Hall speaks about blockchain solutions for global trade and supply chains.
-
-The technology works now it's not just a buzz word.
-
-Fraude, control, transparency,..
-
-There is a need for enterprise to adopt the technology if they don't want to loose some advantage.
-
-Key BC differenciators
-
-
-
 ### _Emmanuelle Ganne,_ Economic Research Department WTO
 
 _"How  the market of trade is transitioning from the traditional centralized system to a decentralized and distributed ledger?"_ 
@@ -111,19 +97,31 @@ There are three main raisons for the adoption of the blockchain within the trade
 2. Proove the authenticity of products and fight conterfeits
 3. Quickly track products
 
-With her entreprise they lead an investigation about the key benefits of the blockchain for the trade market and bellow are the results.
+With her research department they lead an investigation about the key benefits of the blockchain for the trade market and bellow are the results.
 
 ![](.gitbook/assets/benefits.png)
 
-### _Sheila Donohue_, Vero
-
-
+According to her the COVID crisis has shown us that tracking becomes a vital operation in the trade market. It's important to connect platforms and market places to ease supply chain disruption.
 
 ## Part 3 - Sustainability
 
 > _Are there blockchain benefits for developing countries, those that are especially sensitive to sustainable trade practices._
 
-### Krystal Webber, IBM
+### _Krystal Webber_, IBM
+
+Her talk focuses on Blockchain **network design.** For her it's important to remember that "_we are using blockchain technology to **enable business transformation** at the level of a market, industry or ecosystem_".
+
+Going to scale with blockachain can be a long journey. The biggest part is to be able to precisely define the business that we want to digitalize.
+
+### _Virginia Cram Martos,_ Triangularity SàRL
+
+Trade and Blockchain technology fit the description of the **United Nations 2030 Agenda** which emphasize the role of commerce, innovation and digital technology.
+
+According to her the key for a sustainable business and blockchain is the **collaboration** based on **agreed rules**, **shared truth** and **real time access.** These are the main caracteristic of a blockchain.
+
+The business rules are implemented by contracts on the blockchain. These contract defines conditions, transactions timing, payments,...
+
+The shared truth corresponds to the transparency of many aspects of the trade: product tests, authorizations, timing of events, status of payments, certificates,...
 
 
 
