@@ -6,11 +6,11 @@ description: 'Live conference - 101 Blockchain - Wednesday, 20 May 2020'
 
 ## Introduction
 
-### _Alisa DiCaprio_ from [R3](https://www.r3.com/)  
+### _Alisa DiCaprio_ from [R3](https://www.r3.com/)  = blockchain platform to maintain them 
 
 ### 2008 - 2019
 
-Since the begin of the blockchain, the technology has kept growing and growing. These progresses were made globally accross the industries in the world and there was no hub for innovation.
+Since the begin of the blockchain the technology has kept growing and growing. These progress were made globally accross the industries in the world and there was no hub for innovation.
 
 There were long term deployments and the cloud structures offered some benefits in the technical uses of the blockchain.
 
@@ -20,7 +20,7 @@ There were long term deployments and the cloud structures offered some benefits 
 
 Since the begining of the COVI-19 crisis worldwide there was a decline in the world merchandise trade and all the regions were impacted.
 
-However an interesting thing to notice is that accross the world, everybody was capable to **go digital in crisis situation**.
+However an interesting thing to notice is that accross the world everybody was capable to **go digital in crise situation**.
 
 For example, all banks had to establish **business continuity plans** because nobody could go physically and they couldn't stop their activity.
 
@@ -30,7 +30,7 @@ Thus within a few weeks we saw that the industries were capable of adopting new 
 
 #### Enterprise implementations
 
-Enterprises **need to go digital** but not with some ramdom technology. It has to be suited with their needs regarding the security, the scalability, the intergration, their main activity,....
+Enterprises **need to go digital** but not with some ramdom technology. It has to be suited with their needs regarding the sercurity, the scalability, the intergration, their main activity,....
 
 The Blockchain is a functional tool in the **digital transformation** to help other technologies to scale up and down. 
 
@@ -40,17 +40,17 @@ The Blockchain is a functional tool in the **digital transformation** to help ot
 
 ### _Dr. Amber Ghaddar_, AllianceBlock
 
-Until now there are some problems **of trust** in the financial trades. When making a deal with some organization/people, we can't always be sure of their identity.
+Until now there are some problems **of trust** in the financial trades. When making a deal with some organization/people we can't always be sure of their identity.
 
-This is something we saw happening recently during the COVID crisis when countries bought masks to some enterprises that were pure scams. With the emergency of the situation they were in a hurry to buy these products and they didn't really know who they were speaking to and even if these selling organizations existed for real.
+This is something we saw happening recently during the COVID crisis when countries bought masks to some entreprises that were pure scams. With the emergency of the situation they were in hurry to by these products and they didn't really know who they're speaking to and even if these selling organizations existed for real.
 
-Moreover in this case of trade we are not speaking about two intervenants but many at a time: the **buyer** get in touch with a seller, the **seller** has a supplier, the **supplier** is in touch with an **authorized distributor** who is in contact with the **factory**. Thus for each intervenant there is a risk of fraud about its identity that you need to validate yourself by making researches. This can be a tremendous process.
+Moreover in this case of trade we are not speaking about two intervenants but many at a time: the **buyer** get in touch with a seller, the **seller** has a supplier, the **supplier** is in touch with an **othaurized distributer** who is in contact with the **factory**. Thus for each intervenant there is a risk of fraud about its identity that you need to validate yourself by making researches. This is can be a tremendous process.
 
-Another simpler approach would be a "unique" platform where any intervenant in the world could identify himself giving some proofs about who he is. Such a system could be done with a blockchain.
+An another approach way simpler would be a "unique" platform where any intervenant in the world could identitfy himself giving some proofs about who he is. Such a system could be done with blockchain.
 
-However this change would cause some disruption in the way things work today. In a sector such as financial trading, which is heavily regulated, this is something that will be hard to implement.
+However this change would cause some disruption in the way things work today. In a sector such as financial trading which is heavily regulated this is something that will be hard to implement.
 
-**Self-Sovereign Identity** is a model for managing digital identity in which a person/organization has a total control on its own data. These could be crossed data from social media, photos, medical records,... anything that the user chooses to publicly share. That could be stored and secured within a blockchain. Moreover everyone could monetize his own data instead of having big identities \(Facebook, Google, ...\) selling our data to other companies.
+**Self-Sovereign Identity** is a model for managing digital identity in which a person/organization has a total control on its own data. These could be crossed data from social media, pictures, medical records, ... anything that he chooses to publicly share. That could be stored and secured within a blockchain. Moreover everyone could monetize his own data instead of having big identities \(Facebook, Google, ...\) selling our data to other companies.
 
 ### _Genevieve Leveille_, Agriledger
 
@@ -62,26 +62,26 @@ This is a way for the consumer and any intervenant to get **insurances** about t
 
 ### _Laura De Giovanni_, Tiiqu
 
-The speaker points out two problems:
+The speaker point out two problems:
 
-1. There are lots of cases of **identity theft** every year. It can be hard for a someone to keep his own identity private.
+1. There are lots of cases of **identity theft** every year. It can be hard to keep his own identity private
 2. People can **lie about themselves** \(ex: job interviews\) and it's hard to verify what they claim.
 
 There is a global trend about Self-Sovereign Identity with the following benefits:
 
 * One login for everything on the net
-* More privacy and control for the user on its own data and how he shares it
+* More privacy and control for the user for its own data and how he shares it
 * No more paperwork
 * More transparency
 
 This SSI model could be great for users to protect their own data but there is no benefit regarding the trust. Some data can be subjectives and people could still lie about themselves.
 
-At Tiiqu they have developed two technologies:
+At Tiiqu they have develop to tehcnologies:
 
 1. a **Passport** for collecting immutable credentials
 2. a **Score** for measuring trustworthiness.
 
-Their goal is to create a new way to make fair decisions by building trust when someone has to prove who he claims to be.
+Their goal is to create a new way to make fair decisions by bulding trust when someone has to proove who he claims to be.
 
 ## Part 2 - Trade
 
@@ -89,17 +89,19 @@ Their goal is to create a new way to make fair decisions by building trust when 
 
 ### _Emmanuelle Ganne,_ Economic Research Department WTO
 
-There are three main reasons for the adoption of the blockchain within the trade market:
+_"How  the market of trade is transitioning from the traditional centralized system to a decentralized and distributed ledger?"_ 
 
-1. Enhancing transparency for the customer and increase the trust
-2. Prove the authenticity of products and fight conterfeits
+There are three main raisons for the adoption of the blockchain within the trade market:
+
+1. Enhancing transparency for the custmor and increase the trust
+2. Proove the authenticity of products and fight conterfeits
 3. Quickly track products
 
-With her research department they lead an investigation about the key benefits of the blockchain for the trade market and below are the results.
+With her research department they lead an investigation about the key benefits of the blockchain for the trade market and bellow are the results.
 
 ![](.gitbook/assets/benefits.png)
 
-According to her, the COVID crisis has shown us that tracking becomes a vital operation in the trade market. It's important to connect platforms and market places to ease supply chain disruption.
+According to her the COVID crisis has shown us that tracking becomes a vital operation in the trade market. It's important to connect platforms and market places to ease supply chain disruption.
 
 ## Part 3 - Sustainability
 
@@ -109,15 +111,15 @@ According to her, the COVID crisis has shown us that tracking becomes a vital op
 
 Her talk focuses on Blockchain **network design.** For her it's important to remember that "_we are using blockchain technology to **enable business transformation** at the level of a market, industry or ecosystem_".
 
-Going to scale with blockchain can be a long journey. The biggest part is to be able to precisely define the business that we want to digitalize.
+Going to scale with blockachain can be a long journey. The biggest part is to be able to precisely define the business that we want to digitalize.
 
 ### _Virginia Cram Martos,_ Triangularity SàRL
 
-Trade and Blockchain technology fit the description of the **United Nations 2030 Agenda** which emphasizes the role of commerce, innovation and digital technology.
+Trade and Blockchain technology fit the description of the **United Nations 2030 Agenda** which emphasize the role of commerce, innovation and digital technology.
 
-According to her the key for a sustainable business and blockchain is the **collaboration** based on **agreed rules**, **shared truth** and **real time access.** These are the main caracteristics of a blockchain.
+According to her the key for a sustainable business and blockchain is the **collaboration** based on **agreed rules**, **shared truth** and **real time access.** These are the main caracteristic of a blockchain.
 
-The business rules are implemented by contracts on the blockchain. These contracts define conditions, transactions timing, payments,...
+The business rules are implemented by contracts on the blockchain. These contract defines conditions, transactions timing, payments,...
 
 The shared truth corresponds to the transparency of many aspects of the trade: product tests, authorizations, timing of events, status of payments, certificates,...
 
@@ -125,7 +127,7 @@ Real time access is the fact to provide parties of the trade with the latest inf
 
 ### _Montse Guardia Guell_, Alastria Blockchain Ecosystem
 
-We are in an **age of transition,** it's time for us to change the way we are looking at things and create something new to really get the benefits of becoming digital.
+We are in an **age of transition,** it's time for us to change the way we are looking at things and create somtething new to really get the benefits of becoming digital.
 
 One of Alastria's mission is to democratize the access to blockchain by providing tools to promote access, adoption and use of the technology.
 
@@ -133,11 +135,7 @@ The added value of the blockchain is to create a sustainable ecosystem. A way to
 
 ## Conclusion
 
-This was a great long conference. All these women have a great view of the business they are leading and the way the blockchain could be the next step for the financial market.
-
-The digital transformation should be a priority for the enterprises today. In some case the blockchain could be the technology they need to achieve their digitalization. 
-
-Because the implementation of the blockchain in a sector such as the financial market is a huge disruption that's hard to integrate, it's really important that organizations and people think together and collaborate to design the rules that will guide us through this changes.
+This was a great 
 
 
 
