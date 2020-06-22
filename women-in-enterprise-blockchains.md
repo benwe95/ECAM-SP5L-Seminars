@@ -133,5 +133,9 @@ One of Alastria's mission is to democratize the access to blockchain by providin
 
 The added value of the blockchain is to create a sustainable ecosystem. A way to do it is by thinking at the new rules that we are establishing through the technology and by trying to standardize them. Thus for her, the sustainability is also a question of human and organizations collaboration to improve this technology together and the way we ware implementing it today.
 
+## Conclusion
+
+This was a great 
+
 
 
