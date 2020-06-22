@@ -62,13 +62,26 @@ This is a way for the consumer and any intervenant to get **insurances** about t
 
 ### _Laura De Giovanni_, Tiiqu
 
-Creating a new way to make fair decision making. Bulding trust = journey -&gt; proove to be who you are.
+The speaker point out two problems:
 
-Identity can  be stolen. 
+1. There are lots of cases of **identity theft** every year. It can be hard to keep his own identity private
+2. People can **lie about themselves** \(ex: job interviews\) and it's hard to verify what they claim.
 
-Self-Sovereign Identity.
+There is a global trend about Self-Sovereign Identity with the following benefits:
 
-Every data owner should be able to have access to his data and control it.
+* One login for everything on the net
+* More privacy and control for the user for its own data and how he shares it
+* No more paperwork
+* More transparency
+
+This SSI model could be great for users to protect their own data but there is no benefit regarding the trust. Some data can be subjectives and people could still lie about themselves.
+
+At Tiiqu they have develop to tehcnologies:
+
+1. a **Passport** for collecting immutable credentials
+2. a **Score** for measuring trustworthiness.
+
+Their goal is to create a new way to make fair decisions by bulding trust when someone has to proove who he claims to be.
 
 ## Part 2 - Trade
 
